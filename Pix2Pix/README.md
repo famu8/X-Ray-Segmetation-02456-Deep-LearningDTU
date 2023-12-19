@@ -16,8 +16,8 @@ Thus, the Pix2Pix generator has two ways of updating its weights during training
 
 
 ## Hyperparameters for Pix2Pix model
-| \textbf{Learning Rate} | \textbf{Batch Size} | \textbf{Epochs} | \textbf{B_1 Weights} |
+| Learning Rate           | Batch Size         |      Epochs      | B_1 Weights          |
 |------------------------|---------------------|-----------------|-----------------------|
-| 2x10$^{-3}$            | 4                   | 35              | 0.9                   |
+| 2x10-3                 | 4                   | 35              | 0.9                   |
 
 
