@@ -15,8 +15,9 @@ The second term, is the L1 loss, ensuring that the generated images are structur
 Thus, the Pix2Pix generator has two ways of updating its weights during training, one is by the internal circuit, and an external path is provided by the comparison of results between ground truth and fake images from the discriminator. Thus, the generator learns to produce segmented images that resemble more the target segmentations.
 
 
-## Hyperparameters: 
-| Network  | Mean Dice Coefficient | Mean Standard Deviation |
-|----------|------------------------|-------------------------|
-| Pix2Pix  | $0.987$                | $0.001$                 |
+## Hyperparameters for Pix2Pix model
+| \textbf{Learning Rate} | \textbf{Batch Size} | \textbf{Epochs} | \textbf{B_1 Weights} |
+|------------------------|---------------------|-----------------|-----------------------|
+| 2x10$^{-3}$            | 4                   | 35              | 0.9                   |
+
 
