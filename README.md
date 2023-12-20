@@ -30,9 +30,12 @@ with the encoder extracting essential features and the decoder refining the segm
 + cGANs consist of two distinct architectures, namely, a generator and a discriminator, which
 are trained simultaneously through adversarial training. The generator creates a synthetic image
 based on an input image, while the discriminator evaluates it.
-+ We conducted a comparative analysis of the amount of training data required to achieve accept-
-able results. This is particularly crucial as the training process involves manual segmentation as
++ We conducted a comparative analysis of the amount of training data required to achieve acceptable results. This is particularly crucial as the training process involves manual segmentation as
 an initial step
+
+```diff
+- Dislcaimer: when performing the dynamic training to check the robustness of the models, the same dataset has been used, i.e. no image shuffle has been performed, training and testing with the same images in each iteration.  
+```
 
 ### Results obtained
 ![Results_images_2](https://github.com/famu8/X-Ray-Segmetation-02456-Deep-LearningDTU/assets/105816142/bfc20239-965f-48e7-9677-ed1403f38fb6)
@@ -55,6 +58,7 @@ achieved a slightly higher mean Dice Coefficient than U-Net
 | U-Net       | $0.905$                   | $0.136$                     |
 
 *Table 1: Internal Test Results for Dice Coefficient*
+
 
 ### Discussion
 
